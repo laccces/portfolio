@@ -1,21 +1,38 @@
-body {
-  font-family: sans-serif;
+/* Reset & Base */
+* {
   margin: 0;
   padding: 0;
-  line-height: 1.6;
-  background: #f9f9f9;
-  colour: #222;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #fff;
+  color: #111;
+  line-height: 1.8;
+  font-size: 16px;
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* Header */
 header {
-  background: #333;
-  colour: white;
-  padding: 1rem;
-  text-align: centre;
+  margin-bottom: 2rem;
 }
 
 header h1 {
-  margin: 0;
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
 }
 
 nav {
@@ -23,41 +40,24 @@ nav {
 }
 
 nav a {
-  colour: white;
-  text-decoration: none;
-  margin: 0 1rem;
+  margin-right: 1.25rem;
+  font-weight: bold;
 }
 
-nav a:hover {
-  text-decoration: underline;
+/* Main content */
+main {
+  margin-bottom: 4rem;
 }
 
-.hero {
-  padding: 3rem;
-  text-align: centre;
-  background: #e0e0e0;
+section {
+  margin-bottom: 3rem;
 }
 
-.btn {
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  background: #333;
-  colour: white;
-  text-decoration: none;
-  border-radius: 4px;
-  margin-top: 1rem;
-}
-
-.btn:hover {
-  background: #555;
-}
-
+/* Footer */
 footer {
-  background: #333;
-  colour: white;
+  border-top: 1px solid #ccc;
+  padding-top: 1rem;
+  font-size: 0.875rem;
   text-align: centre;
-  padding: 1rem;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+  color: #666;
 }
