@@ -61,3 +61,19 @@ footer {
   text-align: centre;
   color: #666;
 }
+.project-images {
+  display: flex;
+  gap: 1rem; /* space between images */
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap; /* optional, allows stacking on small screens */
+}
+
+.project-images img {
+  width: 100%;
+  max-width: 400px; /* adjust as needed */
+  height: auto;
+  object-fit: cover;
+  border: 1px solid #ccc; /* optional, for visual consistency */
+  border-radius: 8px; /* optional, for clean edges */
+}
